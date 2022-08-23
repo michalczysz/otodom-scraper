@@ -12,7 +12,8 @@ class HousesSpider(scrapy.Spider):
 
     dynamodb_client = boto3.client('dynamodb')
     Houses_table = 'houses4'
-
+    
+    timestamp = int(float(time.time()))
     added_houses = 0
 
     def start_requests(self):
@@ -20,7 +21,7 @@ class HousesSpider(scrapy.Spider):
             for i in range(1, 32)
         ]
         for url in urls:
-            time.sleep(4)
+            time.sleep(1)
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
@@ -81,13 +82,16 @@ class HousesSpider(scrapy.Spider):
                     'S': str(hash_h)
                 },
                 'timestamp': {
-                    'S': str(int(float(time.time())))
+                    'S': str(self.timestamp)
                 }
             }
-
-            print(link)
-            time.sleep(3)
-            yield scrapy.Request(url='https://www.otodom.pl' + link, callback=self.parse_houses, meta={'hero_item': item})
+            
+            if self.added_houses % 3 :
+                print(link)
+                time.sleep(2)
+                yield scrapy.Request(url='https://www.otodom.pl' + link, callback=self.parse_houses, meta={'hero_item': item})
+            else:
+                resp = self.dynamodb_client.put_item(TableName = self.Houses_table, Item = item)
 
     def parse_houses(self, response):
         item = response.meta.get('hero_item')
