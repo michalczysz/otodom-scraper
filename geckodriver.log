@@ -1,0 +1,231 @@
+1661290153002	geckodriver	INFO	Listening on 127.0.0.1:65002
+1661290155010	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65003" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofilebTysQ0"
+1661290155364	Marionette	INFO	Marionette enabled
+1661290155370	Marionette	INFO	Listening on port 65054
+WebDriver BiDi listening on ws://localhost:65003
+Read port: 65054
+1661290155518	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofilebTysQ0\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65003/devtools/browser/fd0a5590-f283-45c5-88b3-5f731bdf2569
+1661290160957	geckodriver	INFO	Listening on 127.0.0.1:65088
+1661290162935	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65089" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofile17nCQB"
+1661290163324	Marionette	INFO	Marionette enabled
+1661290163330	Marionette	INFO	Listening on port 65125
+WebDriver BiDi listening on ws://localhost:65089
+Read port: 65125
+1661290163455	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofile17nCQB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65089/devtools/browser/db39a9c6-4416-42e8-bf55-d0cf903a6a91
+1661290168088	geckodriver	INFO	Listening on 127.0.0.1:65176
+1661290170092	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65177" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofile3AgsCp"
+1661290170460	Marionette	INFO	Marionette enabled
+1661290170465	Marionette	INFO	Listening on port 65193
+WebDriver BiDi listening on ws://localhost:65177
+Read port: 65193
+1661290170614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofile3AgsCp\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65177/devtools/browser/3aadc8ca-5dfa-449c-a5df-f70dbd7bfecb
+1661290175467	geckodriver	INFO	Listening on 127.0.0.1:65226
+1661290177475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65227" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileooEF8j"
+1661290177827	Marionette	INFO	Marionette enabled
+1661290177835	Marionette	INFO	Listening on port 65243
+WebDriver BiDi listening on ws://localhost:65227
+Read port: 65243
+1661290177985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileooEF8j\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65227/devtools/browser/8279ca2a-6107-490c-936d-a328d5272900
+1661290183468	geckodriver	INFO	Listening on 127.0.0.1:65278
+1661290185453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65279" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofilesSHI3c"
+1661290185809	Marionette	INFO	Marionette enabled
+1661290185815	Marionette	INFO	Listening on port 65293
+WebDriver BiDi listening on ws://localhost:65279
+Read port: 65293
+1661290185965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofilesSHI3c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65279/devtools/browser/9acd088b-01ff-402d-8c84-3e7e833df992
+1661290190976	geckodriver	INFO	Listening on 127.0.0.1:65374
+1661290192964	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65375" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileQpTgsA"
+1661290193325	Marionette	INFO	Marionette enabled
+1661290193332	Marionette	INFO	Listening on port 65390
+WebDriver BiDi listening on ws://localhost:65375
+Read port: 65390
+1661290193482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileQpTgsA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65375/devtools/browser/8f29be48-cc83-479f-a9e4-23070de11834
+1661290198436	geckodriver	INFO	Listening on 127.0.0.1:65436
+1661290200442	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65437" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileadzFj9"
+1661290200809	Marionette	INFO	Marionette enabled
+1661290200816	Marionette	INFO	Listening on port 65454
+WebDriver BiDi listening on ws://localhost:65437
+Read port: 65454
+1661290200982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileadzFj9\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65437/devtools/browser/5c4eb449-6ec9-45f8-afe5-76bdb36101e4
+1661290206373	geckodriver	INFO	Listening on 127.0.0.1:65500
+1661290208367	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65501" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileCHBgWZ"
+1661290208763	Marionette	INFO	Marionette enabled
+1661290208769	Marionette	INFO	Listening on port 65529
+WebDriver BiDi listening on ws://localhost:65501
+Read port: 65529
+1661290208894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileCHBgWZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65501/devtools/browser/252eb8b6-d7e1-4334-8564-e10156c4ae31
+1661290215280	geckodriver	INFO	Listening on 127.0.0.1:49185
+1661290217296	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49186" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofile3nLOF7"
+1661290218594	Marionette	INFO	Marionette enabled
+1661290218600	Marionette	INFO	Listening on port 49200
+WebDriver BiDi listening on ws://localhost:49186
+Read port: 49200
+1661290219048	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofile3nLOF7\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49186/devtools/browser/a48240ba-dcdf-43c5-bb63-9cca0e2dcb09
+1661290227917	geckodriver	INFO	Listening on 127.0.0.1:49241
+1661290232476	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49242" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofilelJO0Ju"
+1661290236902	Marionette	INFO	Marionette enabled
+1661290236908	Marionette	INFO	Listening on port 49274
+WebDriver BiDi listening on ws://localhost:49242
+Read port: 49274
+1661290237363	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofilelJO0Ju\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49242/devtools/browser/0ae7795d-c458-40bf-ac03-e0cdf900dfa4
+1661290243760	geckodriver	INFO	Listening on 127.0.0.1:49313
+1661290504876	geckodriver	INFO	Listening on 127.0.0.1:49366
+1661290506903	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "49367" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofile0snzU8"
+*** You are running in headless mode.
+1661290507285	Marionette	INFO	Marionette enabled
+1661290507290	Marionette	INFO	Listening on port 49376
+WebDriver BiDi listening on ws://localhost:49367
+Read port: 49376
+1661290507370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofile0snzU8\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49367/devtools/browser/6c02217a-d694-400d-8d6c-02814fc2e645
+1661290508582	Marionette	INFO	Stopped listening on port 49376
+!!! error running onStopped callback: TypeError: callback is not a function
+[Parent 7632, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1661290761844	geckodriver	INFO	Listening on 127.0.0.1:49643
+1661290781219	geckodriver	INFO	Listening on 127.0.0.1:49652
+1661290783238	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileTYdFqW"
+1661290783668	Marionette	INFO	Marionette enabled
+1661290783675	Marionette	INFO	Listening on port 49662
+WebDriver BiDi listening on ws://localhost:49653
+Read port: 49662
+1661290783914	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileTYdFqW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49653/devtools/browser/4a4e0613-7fb0-4174-9344-2f0430db4d4e
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 185: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+1661290804765	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661290806295	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+1661290897767	Marionette	INFO	Stopped listening on port 49662
+!!! error running onStopped callback: TypeError: callback is not a function
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileiPwr92"
+1661290895444	Marionette	INFO	Marionette enabled
+1661290895454	Marionette	INFO	Listening on port 49745
+WebDriver BiDi listening on ws://localhost:49735
+Read port: 49745
+1661290895621	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileiPwr92\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49735/devtools/browser/b3141aaf-9e86-457f-8892-bcc958f6b315
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+1661290919082	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 185: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+1661290927146	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+1661291006919	Marionette	INFO	Stopped listening on port 49745
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+!!! error running onStopped callback: TypeError: callback is not a function
+" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileTFJWSd"
+1661291006737	Marionette	INFO	Marionette enabled
+1661291006743	Marionette	INFO	Listening on port 49823
+WebDriver BiDi listening on ws://localhost:49813
+Read port: 49823
+1661291006954	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileTFJWSd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49813/devtools/browser/0a0331f9-932c-40cf-915a-3452580b6eef
+1661291024194	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: t is undefined
+1661291028823	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+1661291050586	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291065711	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291076487	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291080999	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+1661291140860	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 185: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1661291218382	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291233416	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+1661291272180	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291276706	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291306424	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: can't convert undefined to object
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+1661291377639	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+1661291437374	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291484293	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+1661291555103	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+1661291568509	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291570286	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+1661291591908	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291608029	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291614090	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291619549	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: this.selector is null
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 185: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: resource://gre/actors/ContentMetaChild.jsm, line 185: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
+1661291847091	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1661291879931	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+1661291884213	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+1661291940961	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: can't convert null to object
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: r is undefined
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: can't convert undefined to object
+JavaScript error: https://cdn.cookielaw.org/scripttemplates/6.32.0/otBannerSdk.js, line 7: TypeError: Qo.bannerGroup is undefined
+1661293300484	geckodriver	INFO	Listening on 127.0.0.1:50466
+1661293302530	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "50467" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileOSkK3Z"
+*** You are running in headless mode.
+1661293302932	Marionette	INFO	Marionette enabled
+1661293302937	Marionette	INFO	Listening on port 50480
+WebDriver BiDi listening on ws://localhost:50467
+Read port: 50480
+1661293303074	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Michal\\AppData\\Local\\Temp\\rust_mozprofileOSkK3Z\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50467/devtools/browser/f64f978e-a7d5-47d6-91fb-3df839dff7b9

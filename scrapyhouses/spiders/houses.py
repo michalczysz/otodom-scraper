@@ -2,7 +2,11 @@ import time
 import scrapy
 import boto3
 import re
-# from inline_requests import inline_requests
+
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 class HousesSpider(scrapy.Spider):
@@ -11,17 +15,24 @@ class HousesSpider(scrapy.Spider):
     page_counter = 1
 
     dynamodb_client = boto3.client('dynamodb')
-    Houses_table = 'houses4'
+    Houses_table = 'houses5'
     
     timestamp = int(float(time.time()))
     added_houses = 0
+    
+    driver = []
+    
+    def __init__(self):
+        options = webdriver.FirefoxOptions()
+        options.headless = True
+        self.driver = webdriver.Firefox(options=options)
 
     def start_requests(self):
         urls = [ f'https://www.otodom.pl/pl/oferty/sprzedaz/mieszkanie/cala-polska?limit=72&page={i}&by=LATEST&direction=DESC'
-            for i in range(1, 32)
+            for i in range(1, 20)
         ]
         for url in urls:
-            time.sleep(1)
+            # time.sleep(1)
             yield scrapy.Request(url=url, callback=self.parse)
 
     def parse(self, response):
@@ -32,6 +43,8 @@ class HousesSpider(scrapy.Spider):
         def room_check(room):
             space_position = room.find(' ')
             return room[:space_position]
+        
+        # def parse_houses(url, item):    
 
         houses_listings = response.css('a[data-cy="listing-item-link"]')
         houses_listings = houses_listings[3:len(houses_listings)]
@@ -86,28 +99,37 @@ class HousesSpider(scrapy.Spider):
                 }
             }
             
-            if self.added_houses % 3 :
-                print(link)
-                time.sleep(2)
-                yield scrapy.Request(url='https://www.otodom.pl' + link, callback=self.parse_houses, meta={'hero_item': item})
+            if self.added_houses % 3:
+                url='https://www.otodom.pl' + link
+                print(url + ' ' + str(item))    
+                self.driver.get(url)
+                WebDriverWait(self.driver, 100).until(
+                    lambda wd: self.driver.execute_script("return document.readyState")
+                    == 'complete', "Page taking too long to load")
+                body = self.driver.find_element(By.XPATH, '//body').text         
+                
+                day = re.search('Data dodania: ([0-9]*) dzień temu', body)
+                days = re.search('Data dodania: ([0-9]*) dni temu', body)
+                week = re.search('Data dodania: ([0-9]*) tydzień temu', body)
+                weeks = re.search('Data dodania: ([0-9]*) tygodni temu', body)
+                month = re.search('Data dodania: ([0-9]*) miesiąc temu', body)
+                months = re.search('Data dodania: ([0-9]*) miesięcy temu', body)
+                year = re.search('Data dodania: ([0-9]*) rok temu', body)
+                years = re.search('Data dodania: ([0-9]*) lata temu', body)
+                bools = {"day": day, 'days': days, 'week': week, 'weeks': weeks, 'month': month, 'months': months, 'year': year, 'years': years}
+                if (day == None and days == None and week == None and weeks == None and month == None and months == None and year == None and years == None):
+                    resp = self.dynamodb_client.put_item(TableName = self.Houses_table, Item = item)
+                else:
+                    self.driver.quit()
+                    raise scrapy.exceptions.CloseSpider(reason=f"Scraped {self.added_houses} houses data from last 24 hours / " + response.url + ' ' + str(bools))
             else:
                 resp = self.dynamodb_client.put_item(TableName = self.Houses_table, Item = item)
-
-    def parse_houses(self, response):
-        item = response.meta.get('hero_item')
-        body = response.css('body').get()
-        
-        day = re.search('Data dodania: ([0-9]*) dzień temu', body)
-        days = re.search('Data dodania: ([0-9]*) dni temu', body)
-        week = re.search('Data dodania: ([0-9]*) tydzień temu', body)
-        weeks = re.search('Data dodania: ([0-9]*) tygodni temu', body)
-        month = re.search('Data dodania: ([0-9]*) miesiąc temu', body)
-        months = re.search('Data dodania: ([0-9]*) miesięcy temu', body)
-        year = re.search('Data dodania: ([0-9]*) rok temu', body)
-        years = re.search('Data dodania: ([0-9]*) lata temu', body)
-        bools = {"day": day, 'days': days, 'week': week, 'weeks': weeks, 'month': month, 'months': months, 'year': year, 'years': years}
-        if (day == None and days == None and week == None and weeks == None and month == None and months == None and year == None and years == None):
-            resp = self.dynamodb_client.put_item(TableName = self.Houses_table, Item = item)
-            yield {'item': item}
-        else:
-            raise scrapy.exceptions.CloseSpider(reason=f"Scraped {self.added_houses} houses data from last 24 hours / " + response.url + ' ' + str(bools))
+            
+            #if self.added_houses % 3 :
+            # print(link)
+                #time.sleep(2)
+            # yield parse_houses(url='https://www.otodom.pl' + link, item = item)
+                # yield scrapy.Request(url='https://www.otodom.pl' + link, callback=self.parse_houses, meta={'hero_item': item})
+            #else:
+                #resp = self.dynamodb_client.put_item(TableName = self.Houses_table, Item = item)
+    
