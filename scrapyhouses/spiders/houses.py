@@ -122,13 +122,18 @@ class HousesSpider(scrapy.Spider):
                 years = re.search('Data dodania: ([0-9]*) lata temu', body)
                 bools = {"day": day, 'days': days, 'week': week, 'weeks': weeks, 'month': month, 'months': months, 'year': year, 'years': years}
                 if (day == None and days == None and week == None and weeks == None and month == None and months == None and year == None and years == None):
-                    resp = self.dynamodb_client.put_item(TableName = self.Houses_table, Item = item)
+                    #resp = self.dynamodb_client.put_item(TableName = self.Houses_table, Item = item)
+                    yield {"text": "text1"}
                 else:
                     self.driver.quit()
                     raise scrapy.exceptions.CloseSpider(reason=f"Scraped {self.added_houses} houses data from last 24 hours / " + response.url + ' ' + str(bools))
             else:
-                resp = self.dynamodb_client.put_item(TableName = self.Houses_table, Item = item)
-            
+                yield {"text": "text2"}
+                #resp = self.dynamodb_client.put_item(TableName = self.Houses_table, Item = item)
+
+    def closed(self):
+        self.driver.quit()   
+           
             #if self.added_houses % 3 :
             # print(link)
                 #time.sleep(2)
