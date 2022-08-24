@@ -39,8 +39,8 @@ cd scrapyhouses/
 scrapy crawl houses
 ```
 
-
 ## Results
+[PDF download](https://publicmichalczysz.s3.eu-central-1.amazonaws.com/QuickSightDash.pdf)
 
 ![App Screenshot](https://publicmichalczysz.s3.eu-central-1.amazonaws.com/QuickSightOutput.png)
 
